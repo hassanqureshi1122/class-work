@@ -8,3 +8,5 @@ while number <10:
 def fun():
     print("bano qabil")
 fun()
+my_list = [ 'p','r','o','g','r','a','m','i','z']
+print(my_list[2:5])
