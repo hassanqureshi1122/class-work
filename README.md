@@ -162,3 +162,19 @@
 #  print("                Slicing Indexing")
 # alpha=["a","b","c", "d", "e","f","g","h", "i", "j"]
 # print(alpha[3:7])
+
+
+
+
+
+#define a class
+class bike: 
+    name = ""
+    gear =0
+    
+# create object of class
+bike1 = bike()
+#access attributes and assign new values
+bike1.gaer = 11
+bike1.name = "mountain bike"
+print(f"name:{bike1.name}, gears: {bike1.gear}")
