@@ -178,3 +178,19 @@ bike1 = bike()
 bike1.gaer = 11
 bike1.name = "mountain bike"
 print(f"name:{bike1.name}, gears: {bike1.gear}")
+
+
+
+
+
+
+class room:
+    length =0.0
+    breadth = 0.0
+    #method to calculate area
+    def calculate_area(self):
+        print("area of room =", self.length * self.breadth)
+study_room = room()
+study_room.length = 42.5
+study_room.breadth = 30.8
+study_room.calculate_area()
