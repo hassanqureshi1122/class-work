@@ -177,7 +177,7 @@ bike1 = bike()
 #access attributes and assign new values
 bike1.gaer = 11
 bike1.name = "mountain bike"
-print(f"name:{bike1.name}, gears: {bike1.gear}")
+print(f"name:{bike1.name}, gears: {bike1.gear}") 
 
 
 
